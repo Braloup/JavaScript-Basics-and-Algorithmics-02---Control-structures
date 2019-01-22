@@ -5,7 +5,13 @@ let addNumber = [];
 while (userNumber > 0) {
 
   let anotherNumber = readLineSync.question("Enter the number you want: ");
-  addNumber.push(anotherNumber);
+  addNumber.push(parseInt(anotherNumber));
   userNumber -= 1;
 }
-console.log(addNumber);
+console.log("Your choice number is: " + addNumber);
+let toatalNumber = 0;
+
+for (var i = 0; i < addNumber.length; i++) {
+  toatalNumber += addNumber[i];
+}
+console.log("The addition of these numbers gives: " + toatalNumber);
