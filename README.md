@@ -1,5 +1,5 @@
 # JavaScript-Basics-and-Algorithmics-02---Control-structures
-## Use if...else while and for loop
+
 
 Exercises
 Exercise 2.1
